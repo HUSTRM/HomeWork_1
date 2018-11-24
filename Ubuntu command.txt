@@ -1,0 +1,76 @@
+/*********Ubuntu常见命令*********/
+pwd                         获取当前路径
+~                           当前用户子目录
+cd ..                       上一级
+mv                          重命名
+rm                          删除文件
+ls                          查看当前目录下的文件
+zip index.zip index -r      压缩index目录下的所有文件到install.zip(要先install zip)
+sudo apt-get install 软件名 软件安装
+ctrl+C                      强制停止当前程序
+ctrl+s                      暂停，任意键恢复
+ctrl+z                      后台运行，fg恢复
+find -name xxx              当前目录下查找
+find /ect -name xxx         在根目录下查找
+find /etc -name *s*         在/etc目录里搜索带有s 的文件
+find /etc -name *S          在/etc目录里搜索以S结尾的文件
+find /etc –name s*         在/etc目录里搜索以s开头的文件
+
+find pathname –options [-print -exec –ok …]
+pathname:find命令所查找的目录路径
+-option:
+-name按文件名查找
+-perm按文件权限查找
+
+locate filename
+
+fdisk命令
+-b    -l    -s   -u   -v  
+用于观察硬盘实体使用情况，也可对硬盘分区
+
+mount命令
+挂载  mount /dev/mmcblk2p1 /tmp  mount –t vfat /dev/mmcblk2p1 /tmp
+卸载  mount /tmp
+
+du命令  对文件和目录磁盘使用的空间进行查看
+-all   -bytes   --total    --kilobytes
+--summarize    --human-readable
+
+tree命令     以树形结构显示文件目录结构
+tree  /                  查看全部文件，需先install tree
+apt-get install tree
+tree –help
+tree –L 1     tree –L 2     tree –L N
+tree –L > /var/test.txt  导出目录到文件
+
+lin命令
+为文件创建连接，连接类型有硬连接和符号连接（-s）
+硬连接：ln /opt/test.c /usr/test1.c
+软连接：ln –s /opt/test/.c /usr/test1.c
+
+grep命令
+强大的文本搜索工具,使用正则表达式搜索文本，并把匹配的行打印出来
+grep [option] pattern file
+grep “text” * -nR
+grep “text” . -nR
+
+echo命令
+隐藏光标：echo –e “\033[?25l”
+显示光标：echo –e “\033[?25h”
+
+vi/vim命令
+复制：yy 一行
+nyy(从光标所在位置到第n行)
+剪切：dd   ndd
+粘贴：p
+撤销：撤销上一个编辑操作 u
+/*********git命令*********/
+git init                 生成本地./git文件
+git add*                 #需要上传的文件  文件夹
+git commit-m"**"         #双引号内对上传文件描述
+git branch -a            #查看所有分支
+git branch slave         #创建slave分支
+git checkout slave       #切换到slave分支
+git remote add origin    关联远程库
+git push origin slave    #上传到github，slave为gitlab名字
+ctrl+h                   #show the file which was hidden
