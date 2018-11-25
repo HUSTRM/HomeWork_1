@@ -1,3 +1,0 @@
-/home/top/CLionProjects/pnpSolver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/top/CLionProjects/pnpSolver/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/top/CLionProjects/pnpSolver/cmake-build-debug/CMakeFiles/pnpSolver.dir
