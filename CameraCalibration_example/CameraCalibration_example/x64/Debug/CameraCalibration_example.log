@@ -1,0 +1,39 @@
+﻿  CameraCalibration_example.cpp
+c:\users\william\desktop\cameracalibration_example\cameracalibration_example\cameracalibration_example.cpp(76): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\william\desktop\cameracalibration_example\cameracalibration_example\cameracalibration_example.cpp(108): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+c:\users\william\desktop\cameracalibration_example\cameracalibration_example\cameracalibration_example.cpp(109): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+c:\users\william\desktop\cameracalibration_example\cameracalibration_example\cameracalibration_example.cpp(163): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\william\desktop\cameracalibration_example\cameracalibration_example\cameracalibration_example.cpp(164): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\william\desktop\cameracalibration_example\cameracalibration_example\cameracalibration_example.cpp(165): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\william\desktop\cameracalibration_example\cameracalibration_example\cameracalibration_example.cpp(167): warning C4244: “=”: 从“_Tp”转换到“float”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+c:\users\william\desktop\cameracalibration_example\cameracalibration_example\cameracalibration_example.cpp(168): warning C4244: “=”: 从“_Tp”转换到“float”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+c:\users\william\desktop\cameracalibration_example\cameracalibration_example\cameracalibration_example.cpp(169): warning C4244: “=”: 从“_Tp”转换到“float”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+  CameraCalibration_example.vcxproj -> C:\Users\william\Desktop\CameraCalibration_example\x64\Debug\CameraCalibration_example.exe
